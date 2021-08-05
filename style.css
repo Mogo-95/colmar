@@ -1,6 +1,18 @@
 
 
 
+/*Modif général*/
+
+body{
+    font-family: "roboto", sans-serif;
+}
+
+h4{
+    font-weight: lighter;
+}
+
+
+/*Banner*/
 
 banner{
     display: inline-flex;
@@ -8,6 +20,7 @@ banner{
     height: 64px;
     align-items: center;
 }
+
 .banner--right {
     display: inline-flex;
     justify-content: flex-end;
@@ -15,6 +28,8 @@ banner{
     column-gap: 16px;
     margin-right: 24px;
     align-items: center;
+    font-weight: 300px;
+    color: rgb(95, 94, 94);
 }
 
 .logo{
@@ -23,6 +38,14 @@ banner{
     width: 50%;
     height: 32px;
     align-items: center;
-    
+    color: rgb(95, 94, 94);
+    font-family: "unbutu", sans-serif;
+    font-weight: bold;
 }
 
+a{
+    color: rgb(204, 201, 201);
+    font-weight: normal;
+}
+
+/*Part 1*/ 
