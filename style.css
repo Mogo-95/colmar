@@ -25,7 +25,16 @@ h1{
 h2{
     color: rgb(95, 94, 94);
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
+    margin: 0px;
+}
+
+h3{
+    font-weight: normal;
+    color: rgb(95, 94, 94);
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 /*Banner*/
@@ -69,6 +78,7 @@ a{
     display: inline-flex;
     justify-content: center;
     background-color: rgb(204, 201, 201);
+    width: 100%;
     
 }
 
@@ -77,11 +87,12 @@ a{
 }
 
 .image-presentation{
+    display: inline-flex;
     justify-content: start;
     margin-left: 24px;
     margin-top: 32px; 
     margin-bottom: 32px;
-    width: 60%; 
+    width: 58.5%; 
 }
 
 .presentation-text{
@@ -110,17 +121,22 @@ button{
 
 .informations{
     display: inline-flex;
-    flex-direction: column;
+    width: 100%;
 }
 
 /*LEFT*/ 
+
+.information-left{
+    display: inline-flex;
+    width: 60%;
+    flex-direction: column;
+}
 
 .image-information{
     display: inline-flex;
     justify-content: start;
     margin-left: 24px;
     margin-top: 32px; 
-    width: 60%; 
 }
 
 .text-information{
@@ -129,20 +145,34 @@ button{
     margin-left: 24px;
 }
 
-.title-information{
-    margin-top: 24px;
-    margin-bottom: 24px;
-}
-
 /*RIGHT*/ 
 
 .information-right{
     display: inline-flex;
-    justify-content: flex-end;
-    width: 40%;
+    flex-direction: column;
+    padding-left: 24px;
 }
 
-.article-information{
+.articles-information{
+    display: inline-flex;
+    
+}
+
+.image-article{
+    height: auto;
+    width: 35%;
+    margin: 16px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+aside{
     display: inline-flex;
     flex-direction: column;
+    justify-content: center;
+    width: 65%;
+}
+
+anchor{
+    color: rgb(0, 140, 255);
 }
